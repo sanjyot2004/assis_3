@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+#display{
+   height: 50px;
+   width: 240px;
+}
+
+.btn button{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
